@@ -544,6 +544,53 @@ button {
   border-color: var(--mint);
 }
 
+.preview-hex {
+  background:
+    linear-gradient(30deg, transparent 0 38%, rgba(223, 255, 63, 0.9) 38% 40%, transparent 40% 100%),
+    linear-gradient(150deg, transparent 0 38%, rgba(255, 75, 47, 0.75) 38% 40%, transparent 40% 100%),
+    radial-gradient(circle at 72% 22%, rgba(182, 244, 196, 0.3), transparent 28%),
+    #15201a;
+}
+
+.preview-hex span {
+  position: absolute;
+  display: block;
+  width: 86px;
+  height: 74px;
+  clip-path: polygon(24% 0, 76% 0, 100% 50%, 76% 100%, 24% 100%, 0 50%);
+  border: 1px solid rgba(255, 253, 246, 0.2);
+  background: var(--paper-strong);
+  box-shadow: 10px 10px 0 rgba(223, 255, 63, 0.82);
+}
+
+.preview-hex span:nth-child(1) {
+  top: 44px;
+  left: 34px;
+}
+
+.preview-hex span:nth-child(2) {
+  top: 104px;
+  right: 36px;
+  background: var(--acid);
+  box-shadow: 10px 10px 0 rgba(255, 75, 47, 0.82);
+}
+
+.preview-hex span:nth-child(3) {
+  left: 68px;
+  bottom: 54px;
+  background: var(--mint);
+  box-shadow: 10px 10px 0 rgba(255, 253, 246, 0.82);
+}
+
+.preview-hex span:nth-child(4) {
+  right: 66px;
+  bottom: 36px;
+  width: 42px;
+  height: 36px;
+  background: var(--ember);
+  box-shadow: 0 0 0 11px rgba(255, 75, 47, 0.22);
+}
+
 .preview-radar {
   background:
     radial-gradient(circle, transparent 0 34px, rgba(223, 255, 63, 0.75) 35px 38px, transparent 39px 76px, rgba(255, 255, 255, 0.18) 77px 79px, transparent 80px),
