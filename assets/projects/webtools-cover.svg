@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">WebTools generated project cover</title>
+  <desc id="desc">A generated editorial cover for WebTools with local utility modules and canvas patterns.</desc>
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#dfff3f" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="field" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07100d"/>
+      <stop offset=".62" stop-color="#10251c"/>
+      <stop offset="1" stop-color="#11251d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfff7"/>
+      <stop offset="1" stop-color="#dce8dc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#07100d" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#field)"/>
+  <rect width="1280" height="800" fill="url(#grid)"/>
+  <path d="M0 646h1280v30H0z" fill="#dfff3f"/>
+  <path d="M0 646h72v30H0zm216 0h72v30h-72zm432 0h72v30h-72zm216 0h72v30h-72zm216 0h72v30h-72z" fill="#ff3f2d"/>
+  <g filter="url(#shadow)">
+    <rect x="118" y="126" width="1044" height="492" rx="8" fill="url(#panel)" stroke="#c5d2c7"/>
+    <rect x="146" y="154" width="288" height="436" rx="6" fill="#07100d"/>
+    <rect x="174" y="188" width="132" height="18" fill="#dfff3f"/>
+    <rect x="174" y="230" width="212" height="58" rx="5" fill="#fbfff7"/>
+    <rect x="174" y="310" width="212" height="58" rx="5" fill="#fbfff7"/>
+    <rect x="174" y="390" width="212" height="58" rx="5" fill="#fbfff7"/>
+    <rect x="174" y="470" width="212" height="58" rx="5" fill="#fbfff7"/>
+    <circle cx="206" cy="259" r="14" fill="#ff3f2d"/>
+    <circle cx="206" cy="339" r="14" fill="#b6f4c4"/>
+    <circle cx="206" cy="419" r="14" fill="#dfff3f"/>
+    <circle cx="206" cy="499" r="14" fill="#ff3f2d"/>
+    <g transform="translate(476 164)">
+      <text x="0" y="46" fill="#07100d" font-family="Avenir Next Condensed, DIN Condensed, Arial Narrow, sans-serif" font-size="62" font-weight="800">WEBTOOLS</text>
+      <text x="2" y="86" fill="#ff3f2d" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="800">LOCAL UTILITY DECK</text>
+      <rect x="0" y="128" width="472" height="280" rx="6" fill="#101713"/>
+      <rect x="26" y="154" width="420" height="228" rx="4" fill="#eef3ec"/>
+      <path d="M65 315c52-100 104-92 156-38s105 50 158-58" fill="none" stroke="#ff3f2d" stroke-width="18" stroke-linecap="square"/>
+      <path d="M65 230h314M65 274h314M65 318h314" stroke="#07100d" stroke-opacity=".24" stroke-width="4"/>
+      <path d="M102 196l56 112 56-112 56 112 56-112" fill="none" stroke="#00a083" stroke-width="18" stroke-linejoin="round"/>
+      <rect x="510" y="128" width="164" height="64" rx="5" fill="#dfff3f"/>
+      <rect x="510" y="216" width="164" height="64" rx="5" fill="#b6f4c4"/>
+      <rect x="510" y="304" width="164" height="64" rx="5" fill="#ff3f2d"/>
+      <text x="536" y="168" fill="#07100d" font-family="SF Mono, Menlo, monospace" font-size="20" font-weight="800">CANVAS</text>
+      <text x="536" y="256" fill="#07100d" font-family="SF Mono, Menlo, monospace" font-size="20" font-weight="800">RDAP</text>
+      <text x="536" y="344" fill="#07100d" font-family="SF Mono, Menlo, monospace" font-size="20" font-weight="800">AUDIO</text>
+    </g>
+  </g>
+  <text x="112" y="714" fill="#fbfff7" font-family="SF Mono, Menlo, monospace" font-size="22">tool.f0.nz</text>
+</svg>
