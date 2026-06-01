@@ -47,6 +47,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  scroll-margin-top: 94px;
+}
+
 button {
   font: inherit;
 }
@@ -453,7 +457,7 @@ button {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   max-width: 1220px;
   margin: 0 auto;
@@ -461,8 +465,8 @@ button {
 
 .project-card {
   display: grid;
-  grid-template-columns: minmax(210px, 0.78fr) minmax(0, 1fr);
-  min-height: 360px;
+  grid-template-columns: 1fr;
+  min-height: 0;
   overflow: hidden;
   border: 1px solid rgba(7, 16, 13, 0.18);
   border-radius: 8px;
@@ -485,8 +489,9 @@ button {
 
 .project-preview {
   position: relative;
-  min-height: 100%;
-  border-right: 1px solid rgba(7, 16, 13, 0.12);
+  aspect-ratio: 16 / 10;
+  min-height: 220px;
+  border-bottom: 1px solid rgba(7, 16, 13, 0.12);
   background: var(--charcoal);
   overflow: hidden;
 }
@@ -497,6 +502,7 @@ button {
   inset: 12px;
   border: 1px solid rgba(255, 253, 246, 0.22);
   border-radius: 6px;
+  pointer-events: none;
 }
 
 .project-preview-image {
@@ -703,6 +709,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  min-height: 318px;
   padding: 24px;
 }
 
@@ -928,6 +935,12 @@ button {
   }
 }
 
+@media (max-width: 1180px) {
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 1040px) {
   .hero-grid,
   .section-heading,
@@ -949,13 +962,13 @@ button {
     justify-self: auto;
     max-width: 760px;
   }
-
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 760px) {
+  section {
+    scroll-margin-top: 150px;
+  }
+
   .site-header {
     position: sticky;
     flex-direction: column;
@@ -1019,14 +1032,16 @@ button {
     font-size: 3.05rem;
   }
 
-  .project-card {
+  .project-grid {
     grid-template-columns: 1fr;
   }
 
   .project-preview {
     min-height: 220px;
-    border-right: 0;
-    border-bottom: 1px solid rgba(7, 16, 13, 0.12);
+  }
+
+  .project-content {
+    min-height: 0;
   }
 
   .open-panel {

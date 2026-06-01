@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Nexus 是一个创意软件开发团队，专注网页产品、AI 工作流和开源开发者工具。"
+      content="Force Zero 是一个创意软件开发团队，专注网页工具、AI 模型网关、桌游产品和可持续维护的开源项目。"
     />
-    <title>Nexus | build something great</title>
+    <title>Force Zero | 项目与工具作品集</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="./assets/icon-192x192.png" />
@@ -18,12 +18,12 @@
   <body>
     <a class="skip-link" href="#projects">跳到项目列表</a>
 
-    <header class="site-header" aria-label="Nexus 网站页头">
-      <a class="brand-lockup" href="#" aria-label="Nexus 首页">
+    <header class="site-header" aria-label="Force Zero 网站页头">
+      <a class="brand-lockup" href="#top" aria-label="Force Zero 首页">
         <span class="brand-token" aria-hidden="true">
           <img src="./assets/nexus-mark-badge.png" alt="" class="brand-mark" />
         </span>
-        <span>Nexus</span>
+        <span>Force Zero</span>
       </a>
       <nav class="primary-nav" aria-label="主导航">
         <a href="#projects">项目</a>
@@ -34,13 +34,13 @@
     </header>
 
     <main>
-      <section class="hero section-dark" aria-labelledby="hero-title">
+      <section class="hero section-dark" id="top" aria-labelledby="hero-title">
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">创意软件团队 / 网页产品、AI、开源</p>
-            <h1 id="hero-title">Nexus</h1>
+            <p class="eyebrow">创意软件团队 / Web、AI、开源</p>
+            <h1 id="hero-title">Force Zero</h1>
             <p class="hero-lede">
-              我们把网页产品、AI 工作流和开发者工具做成可以真正落地使用的项目。
+              我们把小而锋利的想法做成可访问、可维护、可继续扩展的网页项目和 AI 工具。
             </p>
             <div class="hero-actions" aria-label="主要操作">
               <a class="button button-primary" href="#projects">
@@ -54,42 +54,42 @@
             </div>
           </div>
 
-          <div class="hero-emblem" aria-label="Nexus 标志视觉">
+          <div class="hero-emblem" aria-label="Force Zero 标志视觉">
             <img src="./assets/nexus-logo-dark.png" alt="" />
             <div class="emblem-caption">
-              <span>01</span>
-              <strong>把想法、系统和工具连接起来，交付成作品。</strong>
+              <span>F0</span>
+              <strong>从零开始，把可用的系统交付到真实入口。</strong>
             </div>
           </div>
         </div>
 
-        <div class="signal-strip" aria-label="Nexus 关注方向">
-          <span>可上线的网站</span>
-          <span>AI 助手</span>
-          <span>自动化流程</span>
-          <span>开发者工具</span>
-          <span>GitHub 工作流</span>
+        <div class="signal-strip" aria-label="Force Zero 关注方向">
+          <span>本地优先工具</span>
+          <span>AI 模型网关</span>
+          <span>浏览器游戏</span>
+          <span>开源仓库</span>
+          <span>长期维护</span>
         </div>
       </section>
 
       <section class="projects section-light" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
           <p class="eyebrow">项目展示</p>
-          <h2 id="projects-title">一面放已经做出来的东西的项目墙。</h2>
+          <h2 id="projects-title">已经推出的项目，先放到台前。</h2>
           <p>
-            这里用于集中展示已经上线的网页项目、AI 工具和开源实验。真实项目会排在前面，示例内容后续可以继续替换。
+            这里集中展示 Force Zero 已经上线的网页工具、AI 网关和浏览器游戏。每个项目都保留真实入口和代码来源。
           </p>
         </div>
 
         <div class="project-tabs" role="tablist" aria-label="项目分类">
           <button class="tab-button is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
-          <button class="tab-button" type="button" data-filter="web" aria-pressed="false">网页</button>
+          <button class="tab-button" type="button" data-filter="web" aria-pressed="false">网页应用</button>
           <button class="tab-button" type="button" data-filter="ai" aria-pressed="false">AI</button>
           <button class="tab-button" type="button" data-filter="oss" aria-pressed="false">开源</button>
         </div>
 
         <div class="project-grid">
-          <article class="project-card" data-type="web">
+          <article class="project-card" data-type="web oss">
             <div class="project-preview project-preview-image">
               <img src="./assets/projects/webtools-cover.png" alt="WebTools 多工具工作台界面截图" />
             </div>
@@ -100,25 +100,23 @@
               </div>
               <h3>WebTools</h3>
               <p>
-                浏览器本地运行的多工具工作台，集成图片隐写、智能抠图、零宽水印和 Bytebeat 声音实验。
+                浏览器本地运行的多工具工作台，集成图片隐写、智能抠图、短链、域名检测和 Bytebeat 声音实验。
               </p>
               <div class="tech-tags" aria-label="技术栈">
                 <span>Canvas</span>
-                <span>Web Audio</span>
+                <span>Node.js</span>
                 <span>Local-first</span>
               </div>
               <div class="project-links">
                 <a href="https://tool.f0.nz/" target="_blank" rel="noreferrer" aria-label="访问 WebTools">访问</a>
+                <a href="https://github.com/JTropy/WebTools" target="_blank" rel="noreferrer" aria-label="打开 WebTools GitHub 仓库">GitHub</a>
               </div>
             </div>
           </article>
 
-          <article class="project-card" data-type="web">
-            <div class="project-preview preview-hex" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+          <article class="project-card" data-type="web oss">
+            <div class="project-preview project-preview-image">
+              <img src="./assets/projects/hexagon-cover.png" alt="Hexagon 桌游大厅昵称入口界面截图" />
             </div>
             <div class="project-content">
               <div class="project-meta">
@@ -127,124 +125,42 @@
               </div>
               <h3>Hexagon</h3>
               <p>
-                一个 Web-first 的网络桌游对战中心 MVP，让玩家可以直接在浏览器里进入桌面游戏房间。
+                Web-first 的网络桌游对战中心，围绕房间、入座和事件流，把桌面游戏搬进浏览器。
               </p>
               <div class="tech-tags" aria-label="技术栈">
-                <span>Web-first</span>
+                <span>JavaScript</span>
                 <span>Board Game</span>
-                <span>MVP</span>
+                <span>Realtime UI</span>
               </div>
               <div class="project-links">
                 <a href="https://hex.f0.nz/" target="_blank" rel="noreferrer" aria-label="访问 Hexagon">访问</a>
+                <a href="https://github.com/JTropy/Hexagon" target="_blank" rel="noreferrer" aria-label="打开 Hexagon GitHub 仓库">GitHub</a>
               </div>
             </div>
           </article>
 
-          <article class="project-card" data-type="web ai">
-            <div class="project-preview preview-lattice" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
+          <article class="project-card" data-type="ai oss">
+            <div class="project-preview project-preview-image">
+              <img src="./assets/projects/api-hub-cover.png" alt="HuggingAI 统一 LLM API 网关首页截图" />
             </div>
             <div class="project-content">
               <div class="project-meta">
-                <span>网页应用</span>
-                <span>AI 工作流</span>
+                <span>AI 网关</span>
+                <span>模型聚合</span>
               </div>
-              <h3>SignalDesk</h3>
+              <h3>HuggingAI</h3>
               <p>
-                面向团队的网页指挥台，把项目状态、AI 摘要和决策记录放进同一个实时界面。
+                统一的 LLM API 网关，把多家模型服务整理成 OpenAI、Claude、Gemini 兼容接口。
               </p>
               <div class="tech-tags" aria-label="技术栈">
-                <span>Next.js</span>
-                <span>Agent</span>
-                <span>Postgres</span>
-              </div>
-              <div class="project-links">
-                <a href="#" aria-label="访问 SignalDesk">访问</a>
-                <a href="#" aria-label="打开 SignalDesk GitHub 仓库">GitHub</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-type="web">
-            <div class="project-preview preview-radar" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="project-content">
-              <div class="project-meta">
-                <span>网站</span>
-                <span>产品</span>
-              </div>
-              <h3>Northline Studio</h3>
-              <p>
-                一个适合持续发布的产品官网：案例页有编辑感，加载快，也方便后续接 CMS。
-              </p>
-              <div class="tech-tags" aria-label="技术栈">
-                <span>Astro</span>
-                <span>CMS</span>
-                <span>SEO</span>
-              </div>
-              <div class="project-links">
-                <a href="#" aria-label="访问 Northline Studio">访问</a>
-                <a href="#" aria-label="打开 Northline Studio 案例记录">案例记录</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-type="oss ai">
-            <div class="project-preview preview-terminal" aria-hidden="true">
-              <span>nexus run audit</span>
-              <span>✓ trace collected</span>
-              <span>✓ patch drafted</span>
-            </div>
-            <div class="project-content">
-              <div class="project-meta">
-                <span>CLI</span>
-                <span>开源</span>
-              </div>
-              <h3>Patchsmith</h3>
-              <p>
-                一个开发者工具，把重复的仓库维护工作变成可复查的命令，并输出适合人看的日志。
-              </p>
-              <div class="tech-tags" aria-label="技术栈">
-                <span>TypeScript</span>
-                <span>GitHub</span>
-                <span>CLI</span>
-              </div>
-              <div class="project-links">
-                <a href="#" aria-label="查看 Patchsmith 文档">文档</a>
-                <a href="#" aria-label="打开 Patchsmith GitHub 仓库">GitHub</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card" data-type="web oss">
-            <div class="project-preview preview-map" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="project-content">
-              <div class="project-meta">
-                <span>看板</span>
-                <span>OSS</span>
-              </div>
-              <h3>Flow Index</h3>
-              <p>
-                面向小型工程团队的可视化看板，用来梳理发布进度、议题流转和文档健康度。
-              </p>
-              <div class="tech-tags" aria-label="技术栈">
+                <span>Go</span>
                 <span>React</span>
-                <span>图表</span>
-                <span>API</span>
+                <span>LLM API</span>
               </div>
               <div class="project-links">
-                <a href="#" aria-label="访问 Flow Index">访问</a>
-                <a href="#" aria-label="打开 Flow Index GitHub 仓库">GitHub</a>
+                <a href="https://api.f0.nz/" target="_blank" rel="noreferrer" aria-label="访问 HuggingAI">访问</a>
+                <a href="https://api.f0.nz/docs" target="_blank" rel="noreferrer" aria-label="查看 HuggingAI 文档">文档</a>
+                <a href="https://github.com/JTropy/HuggingAI" target="_blank" rel="noreferrer" aria-label="打开 HuggingAI GitHub 仓库">GitHub</a>
               </div>
             </div>
           </article>
@@ -259,18 +175,18 @@
         <div class="capability-list">
           <article>
             <span>01</span>
-            <h3>产品界面</h3>
-            <p>落地页、仪表盘、后台工具、文档站和应用前端，都围绕真实使用流程来做。</p>
+            <h3>真实入口</h3>
+            <p>项目先能打开、能完成核心动作，再继续打磨界面、性能和维护方式。</p>
           </article>
           <article>
             <span>02</span>
-            <h3>AI 工作流</h3>
-            <p>助手、摘要器、自动化脚本和内部 Copilot，重点是接进已有流程，而不是停在 Demo。</p>
+            <h3>AI 接入</h3>
+            <p>模型、接口和自动化能力要被整理成稳定入口，而不是停留在一次性 Demo。</p>
           </article>
           <article>
             <span>03</span>
-            <h3>开发者工具</h3>
-            <p>CLI、GitHub 集成、模板和小工具，专门处理团队里那些反复出现的摩擦。</p>
+            <h3>可替换内容</h3>
+            <p>作品集、截图、链接和说明保持低成本维护，方便后续持续替换真实项目。</p>
           </article>
         </div>
       </section>
@@ -279,12 +195,12 @@
         <div class="open-panel">
           <div>
             <p class="eyebrow">开源项目</p>
-            <h2 id="opensource-title">小工具，也要有开放的边界。</h2>
+            <h2 id="opensource-title">公开代码，是项目继续长大的接口。</h2>
           </div>
           <p>
-            Nexus 会把有复用价值的基础设施放到台前：公开仓库、可复用模式和技术笔记，和已经落地的网页项目一起展示。
+            Force Zero 的项目优先保留公开仓库、部署入口和可读说明。能复用的部分放到台前，方便继续协作和验证。
           </p>
-          <a class="button button-outline" href="#">
+          <a class="button button-outline" href="https://github.com/JTropy" target="_blank" rel="noreferrer">
             <span>GitHub 主页</span>
             <span aria-hidden="true">↗</span>
           </a>
@@ -295,12 +211,12 @@
         <div class="contact-grid">
           <div>
             <p class="eyebrow">开始聊聊</p>
-            <h2 id="contact-title">有产品想法、AI 流程，或者一个值得打磨的仓库？</h2>
+            <h2 id="contact-title">有新的工具想法，或者想一起把现有项目继续做实？</h2>
           </div>
           <div class="contact-card">
-            <p>发来一段简短需求、一张草图，或者一个 GitHub 链接。Nexus 可以帮它变成真正能打开、能使用、能继续迭代的网页项目。</p>
-            <a class="button button-primary" href="mailto:JT@f0.nz">
-              <span>JT@f0.nz</span>
+            <p>把项目线索、仓库链接或上线目标发过来。Force Zero 更适合从一个可运行的入口开始，把它磨成可以长期展示的作品。</p>
+            <a class="button button-primary" href="https://github.com/JTropy" target="_blank" rel="noreferrer">
+              <span>GitHub / JTropy</span>
               <span aria-hidden="true">↗</span>
             </a>
           </div>
@@ -309,13 +225,13 @@
     </main>
 
     <footer class="site-footer">
-      <a class="brand-lockup" href="#" aria-label="Nexus 首页">
+      <a class="brand-lockup" href="#top" aria-label="Force Zero 首页">
         <span class="brand-token" aria-hidden="true">
           <img src="./assets/nexus-mark-badge.png" alt="" class="brand-mark" />
         </span>
-        <span>Nexus</span>
+        <span>Force Zero</span>
       </a>
-      <p>创意软件开发团队。网页产品、AI 工作流和开源工具。</p>
+      <p>创意软件开发团队。网页工具、AI 网关、浏览器游戏和开源项目。</p>
     </footer>
 
     <script src="./script.js"></script>
